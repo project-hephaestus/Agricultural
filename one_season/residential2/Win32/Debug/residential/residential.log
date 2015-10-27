@@ -1,0 +1,52 @@
+﻿Build started 13/10/2015 9:39:09 μμ.
+     1>Project "C:\Users\Antonia\Documents\Gridlab-D\trunk versions\argicultural\gridlab-d-code-5159-trunk\residential2\residential.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Win32\Debug\residential\residential.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I..\core /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _USRDLL /D _CRT_SECURE_NO_DEPRECATE /D _CTR_DEPRECATE_NO_WARNING /D _WINDLL /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Win32\Debug\residential\\" /Fd"Win32\Debug\residential\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt soil_sensor.cpp
+         soil_sensor.cpp
+     1>c:\users\antonia\documents\gridlab-d\trunk versions\argicultural\gridlab-d-code-5159-trunk\residential2\soil_sensor.cpp(87): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+     1>c:\users\antonia\documents\gridlab-d\trunk versions\argicultural\gridlab-d-code-5159-trunk\residential2\soil_sensor.cpp(88): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+     1>c:\users\antonia\documents\gridlab-d\trunk versions\argicultural\gridlab-d-code-5159-trunk\residential2\soil_sensor.cpp(193): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+     1>c:\users\antonia\documents\gridlab-d\trunk versions\argicultural\gridlab-d-code-5159-trunk\residential2\soil_sensor.cpp(222): warning C4244: '=' : conversion from 'TIMESTAMP' to 'int', possible loss of data
+       ManifestResourceCompile:
+         All outputs are up-to-date.
+       Link:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"..\VS2005\Win32\Debug\residential.dll" /INCREMENTAL /NOLOGO /LIBPATH:..\VS2005\Win32\Debug\ kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Win32\Debug\residential\residential.dll.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\Antonia\Documents\Gridlab-D\trunk versions\argicultural\gridlab-d-code-5159-trunk\VS2005\Win32\Debug\residential.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"..\VS2005\Win32\Debug\residential.lib" /MACHINE:X86 /DLL Win32\Debug\residential\residential.dll.embed.manifest.res
+         Win32\Debug\residential\appliance.obj
+         Win32\Debug\residential\clotheswasher.obj
+         Win32\Debug\residential\dishwasher.obj
+         Win32\Debug\residential\dryer.obj
+         Win32\Debug\residential\evcharger.obj
+         Win32\Debug\residential\evcharger_det.obj
+         Win32\Debug\residential\freezer.obj
+         Win32\Debug\residential\house_a.obj
+         Win32\Debug\residential\house_e.obj
+         Win32\Debug\residential\init.obj
+         Win32\Debug\residential\lights.obj
+         Win32\Debug\residential\main.obj
+         Win32\Debug\residential\microwave.obj
+         Win32\Debug\residential\occupantload.obj
+         Win32\Debug\residential\plugload.obj
+         Win32\Debug\residential\range.obj
+         Win32\Debug\residential\refrigerator.obj
+         Win32\Debug\residential\residential_enduse.obj
+         Win32\Debug\residential\soil_sensor.obj
+         Win32\Debug\residential\solvers.obj
+         Win32\Debug\residential\thermal_storage.obj
+         Win32\Debug\residential\waterheater.obj
+         Win32\Debug\residential\zipload.obj
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"Win32\Debug\residential\residential.dll.embed.manifest" /manifest Win32\Debug\residential\residential.dll.intermediate.manifest
+         All outputs are up-to-date.
+       LinkEmbedManifest:
+         All outputs are up-to-date.
+         residential.vcxproj -> C:\Users\Antonia\Documents\Gridlab-D\trunk versions\argicultural\gridlab-d-code-5159-trunk\residential2\..\VS2005\Win32\Debug\residential.dll
+       FinalizeBuildStatus:
+         Deleting file "Win32\Debug\residential\residential.unsuccessfulbuild".
+         Touching "Win32\Debug\residential\residential.lastbuildstate".
+     1>Done Building Project "C:\Users\Antonia\Documents\Gridlab-D\trunk versions\argicultural\gridlab-d-code-5159-trunk\residential2\residential.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.18

@@ -1,0 +1,42 @@
+﻿Build started 13/10/2015 10:55:19 μμ.
+     1>Project "C:\Users\Antonia\Documents\Gridlab-D\trunk versions\argicultural\gridlab-d-code-5159-trunk\market2\market.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Win32\Debug\market\market.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I..\core /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _USRDLL /D _CRT_SECURE_NO_DEPRECATE /D _WINDLL /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Win32\Debug\market\\" /Fd"Win32\Debug\market\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt irrigation_controller.cpp
+         irrigation_controller.cpp
+     1>c:\users\antonia\documents\gridlab-d\trunk versions\argicultural\gridlab-d-code-5159-trunk\market2\irrigation_controller.cpp(392): warning C4244: '=' : conversion from 'TIMESTAMP' to 'double', possible loss of data
+     1>c:\users\antonia\documents\gridlab-d\trunk versions\argicultural\gridlab-d-code-5159-trunk\market2\irrigation_controller.cpp(395): warning C4244: 'argument' : conversion from 'double' to 'TIMESTAMP', possible loss of data
+     1>c:\users\antonia\documents\gridlab-d\trunk versions\argicultural\gridlab-d-code-5159-trunk\market2\irrigation_controller.cpp(783): warning C4715: 'irrigation_controller::sync' : not all control paths return a value
+       ManifestResourceCompile:
+         All outputs are up-to-date.
+       Link:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Antonia\Documents\Gridlab-D\trunk versions\argicultural\gridlab-d-code-5159-trunk\market2\\..\VS2005\Win32\Debug\market.dll" /INCREMENTAL /NOLOGO /LIBPATH:..\VS2005\Win32\Debug\ kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Win32\Debug\market\market.dll.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\Antonia\Documents\Gridlab-D\trunk versions\argicultural\gridlab-d-code-5159-trunk\VS2005\Win32\Debug\market.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"..\VS2005\Win32\Debug\market.lib" /MACHINE:X86 /DLL Win32\Debug\market\market.dll.embed.manifest.res
+         Win32\Debug\market\auction.obj
+         Win32\Debug\market\bid.obj
+         Win32\Debug\market\controller.obj
+         Win32\Debug\market\curve.obj
+         Win32\Debug\market\double_controller.obj
+         Win32\Debug\market\generator_controller.obj
+         Win32\Debug\market\house_bidder.obj
+         Win32\Debug\market\init.obj
+         Win32\Debug\market\irrigation_controller.obj
+         Win32\Debug\market\main.obj
+         Win32\Debug\market\passive_controller.obj
+         Win32\Debug\market\stub_bidder.obj
+         Win32\Debug\market\stubauction.obj
+         Win32\Debug\market\virtual_battery.obj
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"Win32\Debug\market\market.dll.embed.manifest" /manifest Win32\Debug\market\market.dll.intermediate.manifest
+         All outputs are up-to-date.
+       LinkEmbedManifest:
+         All outputs are up-to-date.
+         market.vcxproj -> C:\Users\Antonia\Documents\Gridlab-D\trunk versions\argicultural\gridlab-d-code-5159-trunk\market2\..\VS2005\Win32\Debug\market.dll
+       FinalizeBuildStatus:
+         Deleting file "Win32\Debug\market\market.unsuccessfulbuild".
+         Touching "Win32\Debug\market\market.lastbuildstate".
+     1>Done Building Project "C:\Users\Antonia\Documents\Gridlab-D\trunk versions\argicultural\gridlab-d-code-5159-trunk\market2\market.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.88
